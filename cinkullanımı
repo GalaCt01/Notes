@@ -1,0 +1,20 @@
+#Not-2(cin  kullanımı)
+
+/* Cin kodu kullanıcıya ekrana tıklayıp girmesi gereken neyse onu girmeye yöneltir.*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int sayi1,sayi2;
+ 	cout << "Lutfen bir tam sayi giriniz : " << endl;
+	cin >> sayi1;
+	cout << "Lutfen bir tam sayi daha giriniz : " << endl;
+	cin >> sayi2;
+	cout << "Girdiginiz sayilarin Toplami : " << sayi1 + sayi2 << endl;
+	cout << "Girdiginiz sayilarin Farklari : " << sayi1 - sayi2 << endl;
+	cout << "Girdiginiz sayilarin Carpimi : " << sayi1 * sayi2 << endl;
+	cout << "Girdiginiz sayilarin Bolumu : " << sayi1 / sayi2 << endl;
+  
+  Return 0;
+ }
