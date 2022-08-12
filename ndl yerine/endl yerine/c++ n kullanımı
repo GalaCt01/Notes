@@ -1,0 +1,13 @@
+#Not-3
+(endl yerine /n kullanımı)
+
+/* endl yerine /n de kullanabiliriz */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "Merhaba Galaksi ! /n";
+	cout << "Biz bu programlamaya asigiz n" ;
+ 	return 0;
+}
