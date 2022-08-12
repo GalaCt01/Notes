@@ -1,0 +1,13 @@
+#Not-4
+
+/girdiğimiz sayılardan.en büyük olanını ekrana girer/
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+cout << max(8,16) << endl;
+
+Return 0;
+}
