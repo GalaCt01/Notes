@@ -1,0 +1,16 @@
+#Not-7(log fonksiyonu kullanımı)
+
+/*degisken türünün lagoritmasini alir. */
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+ int main()
+{
+  int x;
+  cout << "Lutfen bir adet x tamsayisi giriniz : " << endl;
+  cin >> x;
+  cout << "Girdiginiz x tamsayisinin logaritmasi : " << log(x) << endl;
+
+Return 0;
+}
