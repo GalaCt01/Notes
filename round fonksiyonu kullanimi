@@ -1,0 +1,21 @@
+#Not-6(round fonksiyonu kullanimi)
+
+
+/*Ondalık sayıyı en yakın sayıya yuvrlamaya yarar */
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+ int main()
+{
+  float x;
+  float y;
+  cout << "Lutfen bir adet x ondalikli sayisini giriniz : " << endl;
+  cin >> x;
+  cout << "Lutfen bir adet y ondalikli sayisini giriniz : " << endl;
+  cin >> y;
+cout << "Girdiginiz x ondalikli sayisinin yuvarlanabilecegi en yakin tamsayi : " << round(x) << endl;
+cout << "Girdiginiz y ondalikli sayisinin yuvarlanabilecegi en yakin tamsayi : " << round(y) << endl;
+
+Return 0;
+}
