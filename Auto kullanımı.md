@@ -1,5 +1,3 @@
-# C++ Notları gelecek
-
 #Not-1
 (Auto kullanımı)
 
